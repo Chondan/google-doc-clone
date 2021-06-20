@@ -1,6 +1,7 @@
 module.exports = {
     extends: [
         '../.eslintrc.js',
+        'react-app',
     ],
     rules: {
         'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.ts'] }],
@@ -9,6 +10,7 @@ module.exports = {
         'no-use-before-define': 'off',
         'import/prefer-default-export': 'off',
         'jsx-quotes': ['error', 'prefer-single'],
+        'react/button-has-type': 'off',
     },
 
 };
