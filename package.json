@@ -11,7 +11,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:client:start": "yarn workspace client start"
+    "dev:client": "yarn workspace client start",
+    "dev:server": "yarn workspace server dev"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +27,8 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "custom-env": "^2.0.1"
   }
 }
