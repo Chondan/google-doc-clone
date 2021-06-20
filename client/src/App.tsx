@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { TextEditor } from '@components/TextEditor';
 
 function App() {
     return (
-        <div className="App">
-            <h1>Google Doc Clone</h1>
+        <div className='App'>
+            <TextEditor />
         </div>
     );
 }

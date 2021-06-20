@@ -23,5 +23,6 @@ module.exports = {
         indent: ['error', 4],
         'import/extensions': 'off',
         'import/no-unresolved': 'off',
+        'no-unused-vars': 'warn',
     },
 };
